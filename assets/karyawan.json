@@ -1,42 +1,42 @@
-{
-"nama": "John Doe",
-"umur": 30,
-"alamat": {
-"jalan": "J1. Pahlawan",
-"kota": "Surabaya",
-"provinsi": "Jawa Timur"
-},
-"hobi": ["membaca", "bersepeda", "memasak"]
-}
-{
-"nama": "Jane Smith",
-"umur": 25,
-"alamat": {
-"jalan": "Jl. Merdeka",
-"kota": "Jakarta",
-"provinsi": "DKI Jakarta"
-},
-"hobi": ["menulis", "berkebun", "melukis"]
-}
 [
-    {
-        "nama": Budi Setiawan,
-        "umur": 30,
-        "alamat": {
-            "jalan": "Jl. Pahlawan",
-            "kota": "Surabaya",
-            "provinsi": "Jawa Timur"
-        },
-        "hobi": ["bersepeda", "membaca"]
+  {
+    "nama": "John Doe",
+    "umur": 30,
+    "alamat": {
+      "jalan": "Jl. Pahlawan",
+      "kota": "Surabaya",
+      "provinsi": "Jawa Timur"
     },
-    {
-        "nama": "Ferdinan Lubis",
-        "umur": 25,
-        "alamat": {
-            "jalan": "Jl. Cipto",
-            "kota": "Jakarta",
-            "provinsi": "DKI Jakarta"
-        },
-        "hobi": ["menulis", "makan"]
-    }
+    "hobi": ["membaca", "bersepeda", "memasak"]
+  },
+  {
+    "nama": "Jane Smith",
+    "umur": 25,
+    "alamat": {
+      "jalan": "Jl. Merdeka",
+      "kota": "Jakarta",
+      "provinsi": "DKI Jakarta"
+    },
+    "hobi": ["menulis", "berkebun", "melukis"]
+  },
+  {
+    "nama": "Budi Setiawan",
+    "umur": 30,
+    "alamat": {
+      "jalan": "Jl. Pahlawan",
+      "kota": "Surabaya",
+      "provinsi": "Jawa Timur"
+    },
+    "hobi": ["bersepeda", "membaca"]
+  },
+  {
+    "nama": "Ferdinan Lubis",
+    "umur": 25,
+    "alamat": {
+      "jalan": "Jl. Cipto",
+      "kota": "Jakarta",
+      "provinsi": "DKI Jakarta"
+    },
+    "hobi": ["menulis", "makan"]
+  }
 ]
