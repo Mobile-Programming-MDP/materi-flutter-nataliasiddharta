@@ -78,7 +78,7 @@ Widget _buildMovieList(String title, List<Movie> movies) {
 }
 Widget _buildMovieListWidget(List<Movie> movies) {
   return SizedBox(
-    height: 200,
+    height: 230,
     child: ListView.builder(
       scrollDirection: Axis.horizontal,
       itemCount: movies.length,
