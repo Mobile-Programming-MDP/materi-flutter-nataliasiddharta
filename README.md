@@ -65,7 +65,7 @@ dart pub global activate flutterfire_cli
 
 ---
 
-## 🔥 4. Hubungkan Firebase ke Project Flutter
+## 🔥 3. Hubungkan Firebase ke Project Flutter
 
 1. Masuk ke Direktori Root Proyek
 Cari dlu path projek dimana, terus command CD
@@ -91,7 +91,7 @@ lib/firebase_options.dart
 
 ---
 
-## 📦 5. Install Dependency Flutter
+## 📦 4. Install Dependency Flutter
 
 Tambahkan ke `pubspec.yaml`:
 ```bash
@@ -120,7 +120,7 @@ flutter pub get
 
 ---
 
-## 🔌 6. Inisialisasi Firebase
+## 🔌 5. Inisialisasi Firebase
 Inisialisasi Kode di main.dart
 Buka file lib/main.dart dan tambahkan kode inisialisasi Firebase agar siap digunakan saat aplikasi dimulai:
 
