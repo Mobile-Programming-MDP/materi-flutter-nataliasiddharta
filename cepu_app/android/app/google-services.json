@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "380003583452",
+    "project_id": "natalia-siddharta",
+    "storage_bucket": "natalia-siddharta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380003583452:android:c2b8d2b18dfbcb8ff1fb19",
+        "android_client_info": {
+          "package_name": "com.example.cepu_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm74dI-HsAtOHhv5BVCKRKFIbqO2s_-Yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
