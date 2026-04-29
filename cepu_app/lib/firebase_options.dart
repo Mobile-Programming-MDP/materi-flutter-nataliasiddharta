@@ -33,10 +33,7 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,13 +47,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCPbBAlLIGkIGcdF5NRC_v7LjxqajcsOzc',
-    appId: '1:380003583452:web:e532f5ee09102b0ef1fb19',
-    messagingSenderId: '380003583452',
-    projectId: 'natalia-siddharta',
-    authDomain: 'natalia-siddharta.firebaseapp.com',
-    storageBucket: 'natalia-siddharta.firebasestorage.app',
-    measurementId: 'G-DY7YSFWSB9',
+    apiKey: 'AIzaSyB1RW_c7gNs-1PBCcn-AVMXnuA0vorqRMQ',
+    appId: '1:869830888963:web:85e0a8ed8a00846b4ec836',
+    messagingSenderId: '869830888963',
+    projectId: 'cepu-app-ab5d4',
+    authDomain: 'cepu-app-ab5d4.firebaseapp.com',
+    storageBucket: 'cepu-app-ab5d4.firebasestorage.app',
+    measurementId: 'G-ZZVFN6XTLV',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -66,4 +63,15 @@ class DefaultFirebaseOptions {
     projectId: 'natalia-siddharta',
     storageBucket: 'natalia-siddharta.firebasestorage.app',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyB1RW_c7gNs-1PBCcn-AVMXnuA0vorqRMQ',
+    appId: '1:869830888963:web:df4606c1fc0bdf724ec836',
+    messagingSenderId: '869830888963',
+    projectId: 'cepu-app-ab5d4',
+    authDomain: 'cepu-app-ab5d4.firebaseapp.com',
+    storageBucket: 'cepu-app-ab5d4.firebasestorage.app',
+    measurementId: 'G-WDBW7F10H8',
+  );
+
 }
